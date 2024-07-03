@@ -1,4 +1,7 @@
 .container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
   background: dodgerblue;
   border: 4px solid midnightblue;
   width: 400px;
@@ -12,4 +15,6 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+  /* In the flex layout, setting the margin of a flex item to auto takes up all extra space */
+  margin: auto;
 }
